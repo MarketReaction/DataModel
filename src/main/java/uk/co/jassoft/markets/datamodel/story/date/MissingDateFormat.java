@@ -22,10 +22,11 @@ public class MissingDateFormat extends BaseObject
         super(null);
     }
 
-    public MissingDateFormat(String metatag)
+    public MissingDateFormat(String metatag, Date date_found)
     {
         super(null);
         this.metatag = metatag;
+        this.date_found = date_found;
     }
 
     @JsonCreator
